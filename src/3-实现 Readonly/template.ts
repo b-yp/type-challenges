@@ -3,7 +3,7 @@ type MyReadonly<T> = {
 }
 
 // js 实现
-function MyReadonly (obj) {
+function myReadonly (obj) {
   let result = {}
 
   for(let key in obj) {
