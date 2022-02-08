@@ -1,4 +1,5 @@
 type MyReadonly<T> = {
+  // 遍历 interface
   readonly [P in keyof T]: T[P]
 }
 
